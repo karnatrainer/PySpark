@@ -2,7 +2,7 @@ import pyspark
 from pyspark import SparkConf,SparkContext
 import re
 import sys
-
+#aded a comment
 def main():
     
     #Defining the configuration of the applcation
