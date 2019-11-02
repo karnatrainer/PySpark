@@ -6,6 +6,7 @@ import sys
 import re
 #--------------------------------------------------------------
 #Funtion to extract the required fields
+## added some comment on this code
 def extract_calldata(rec):
     phonenos = re.search('\d{20}',rec).group()
     from_no = phonenos[0:10]
